@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>task2</title>
+        <style>
+            ol {
+                line-height: 125%;
+            }
+            li {
+                padding-left: 15px;
+            }
+           </style>
+    </head>
+    <body>
+        <p>Preceding Text</p>
+
+        <ol type="I">
+            <li>List Item 1</li>
+                <ol type="a" style="margin-left: -9px;">
+                    <li>Nested Item 1.1</li>
+                    <li>Nested Item 1.2</li>
+                </ol>
+            <li>List Item 2</li>
+                <ol type="1" style="margin-left: -9px;">
+                    <li>Nested Item 2.1</li>
+                    <li>Nested Item 2.2</li>
+                        <ol style="list-style-type: circle; margin-left: 15px;">
+                            <li>Nested Item 2.2.1</li>
+                            <li>Nested Item 2.2.2</li>
+                                <ol style="list-style-type: square;margin-left: 15px;">
+                                    <li>Nested Item 2.2.2.1</li>
+                                    <li>Nested Item 2.2.2.2</li>
+                                </ol>
+                            <li>Nested Item 2.2.3</li>
+                        </ol>
+                    <li>Nested Item 2.3</li>
+                </ol>
+            <li>List Item 3</li>
+                <ol style="list-style-type: disc;margin-left: -9px;">
+                    <li>Nested Item 3.1</li>
+                    <li>Nested Item 3.1</li>
+                    <li>Nested Item 3.1</li>
+                </ol>
+        </ol>
+    </body>
+</html>
+
+
