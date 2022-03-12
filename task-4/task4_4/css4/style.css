@@ -1,0 +1,21 @@
+body{
+    padding: 3px 400px 3px;
+    color: rgb(0, 148, 255);
+    word-spacing: 2px;
+    letter-spacing: 0.05em;
+}
+h1{
+    font-size: small;
+    text-align: justify;
+}
+.intro_title{
+    font-weight: bold;
+    line-height: 2em;
+}
+.intro_title::first-letter{
+    font-family: 'Parisienne', cursive;
+    font-size: x-large;
+}
+.intro_content{
+    font-weight: normal;
+}

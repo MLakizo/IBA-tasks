@@ -1,0 +1,55 @@
+caption{
+	padding: 5px 100px 0px 3px;
+	background-color: rgb(85, 85, 85);
+	text-align: left;
+	color: rgb(160, 160, 160);
+	font-size: large;
+}
+table,td,tr{
+	font-family:Arial, Helvetica, sans-serif ;
+	border: none;
+	padding: 10px 30px 1px 1px;
+	background-color: rgb(85, 85, 85);
+	text-align: left;
+	font-size: smaller;
+}
+table{
+	padding: 4px 48px 0px 1px;
+}
+td:first-of-type{
+	font-style: italic;
+	color:floralwhite;
+	
+}
+.img{
+	width: 10px;
+	height: auto;
+	padding: 1px 3px;
+	vertical-align: text-bottom;
+
+}
+.yellow{
+	color:rgb(243, 243, 147) ;
+}
+.red{
+	color: rgb(228, 19, 19);
+	padding: 0px 70px 2px 1px ;
+	font-weight:bold;
+}
+.orange{
+	color: rgb(216, 123, 2);
+}
+.grey{
+	color: rgb(160, 160, 160);
+}
+.round {
+	width: 10em;
+	height: 10em;
+	border: 2px solid red;
+	border-radius: 50%;
+	background: mistyrose;
+  }
+.a{
+	color: rgb(243, 243, 147) ;
+	text-decoration: none;
+}  

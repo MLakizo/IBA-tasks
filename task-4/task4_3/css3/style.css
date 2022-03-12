@@ -1,0 +1,15 @@
+table,tr,td{
+    border: 0.9px solid rgb(146, 217, 221);
+    border-collapse: collapse;
+    padding: 4.2px 12.6px 6.3px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: 900;
+    color: rgb(152, 255, 250);
+    text-shadow: 0.8px 0.8px 1px rgb(81, 121, 126);
+    text-align: center;
+    background-color: rgb(234, 255, 255);
+    
+}
+.right{
+    text-align: right;
+}
